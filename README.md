@@ -66,7 +66,7 @@ deactivate
 ```
 ### 7. Interface of the site
 
-![Audio Wellness Analyzer](Site-Interface/1.png)
+![Audio Wellness Analyzer](Website-Interface/1.png)
 
 
 
