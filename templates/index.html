@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Wellness Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Wellness Analyzer</h1>
+
+        <div class="card upload-box">
+            <h2>Upload Audio File</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept="audio/*" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </div>
+
+        {% if uploaded %}
+        <div class="card result-box">
+            <h2>Transcript</h2>
+            <p class="transcript">{{ transcript }}</p>
+        </div>
+
+        <div class="card result-box">
+            <h2>Analysis Summary</h2>
+            <ul>
+                {% for key, value in features.items() %}
+                <li><strong>{{ key }}:</strong> {{ value }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card result-box">
+            <h2>Pitch Graph</h2>
+            <img src="{{ plot_path }}" alt="Pitch Plot">
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
