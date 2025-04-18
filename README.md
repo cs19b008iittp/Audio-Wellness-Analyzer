@@ -31,13 +31,21 @@ myenv\Scripts\activate
 
 To install the dependencies for this project, run the following command:
 
+```bash
+
 pip install -r requirements.txt
+
+```
 
 ### 4. Run the Application Locally
 
 Use the following command to start the server:
 
+```bash
+
 uvicorn main:app --reload
+
+```
 
 This command will run the FastAPI application on http://127.0.0.1:8000. You can access the app by opening your browser and navigating to this URL.
 
@@ -51,7 +59,11 @@ Once the server is running, open your web browser and navigate to: http://127.0.
 
 When you are done working with the project, you can deactivate the virtual environment by running:
 
+```bash
+
 deactivate
+
+```
 
 
 
