@@ -64,6 +64,9 @@ When you are done working with the project, you can deactivate the virtual envir
 deactivate
 
 ```
+### 7. Interface of the site
+
+![Audio Wellness Analyzer](Site-Interface/1.png)
 
 
 
