@@ -5,7 +5,7 @@ Follow these steps to set up the project locally:
 
 First, download the project as a **ZIP** file from the GitHub repository:
 
-1. Go to the GitHub repository: [Repository URL](https://github.com/your-repository-url)
+1. Go to the GitHub repository: [Repository URL](https://github.com/cs19b008iittp/Audio-Wellness-Analyzer.git)
 2. Click the "Code" button, and select "Download ZIP".
 3. Extract the ZIP file to a location of your choice on your computer.
 
@@ -24,6 +24,8 @@ python -m venv myenv
 
 # Activate the virtual environment
 myenv\Scripts\activate
+
+```
 
 ### 3. Install the Required Dependencies
 
