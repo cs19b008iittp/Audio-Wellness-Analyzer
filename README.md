@@ -68,6 +68,12 @@ deactivate
 
 ![Audio Wellness Analyzer](Website-Interface/1.png)
 
+![Audio Wellness Analyzer](Website-Interface/2.png)
+
+![Audio Wellness Analyzer](Website-Interface/3.png)
+
+![Audio Wellness Analyzer](Website-Interface/4.png)
+
 
 
 
