@@ -9,3 +9,4 @@ openai-whisper
 scikit-learn
 pydub
 imageio[ffmpeg]
+gunicorn
