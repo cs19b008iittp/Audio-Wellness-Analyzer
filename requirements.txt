@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+jinja2
+python-multipart
+librosa
+numpy
+matplotlib
+openai-whisper
+scikit-learn
+pydub
+imageio[ffmpeg]
